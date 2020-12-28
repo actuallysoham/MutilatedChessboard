@@ -1,0 +1,71 @@
+#html {
+  margin: 5%;
+  padding: 5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.black {
+  background-color: grey;
+  width: 4vw;
+  height: 4vw;
+  border: 0.2em solid black;
+  display: inline-block;
+}
+
+.white {
+  background-color: white;
+  width: 4vw;
+  height: 4vw;
+  border: 0.2em solid black;
+  display: inline-block;
+}
+
+#board {
+  padding-top: 20px;
+}
+
+.item-instructions {
+  grid-column-start: 6;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+}
+
+.item-board {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: center;
+}
+
+.white:hover {
+  background-color: #fee97c;
+}
+
+.black:hover {
+  background-color: #a89a53;
+}
+
+#tile_button {
+  visibility: hidden;
+}
+
+#domino_icon_handler {
+  visibility: hidden;
+}

@@ -1,0 +1,188 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <title>Mutilated Chessboard</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://res.cloudinary.com/dl6m7txan/image/upload/v1609178827/GMC/gmc_grsrqd.png"/>
+
+
+    <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+    </head>
+
+
+
+
+
+<body> 
+
+  <center>
+    <br/><br/>
+    <h1><b>Mutilated Chessboard Problem</b></h1>
+    <h3> Discrete Math CS 1104 </h3>
+  </center>
+    
+
+<div class="container">
+
+
+    <div class="item"></div>
+
+
+  <div class = "item-board" id="board">
+
+    <!-- Row 1 -->
+
+    <div row = "1" column = "1" class = "white" selected = "false"></div>
+    <div row = "1" column = "2" class = "black" selected = "false"></div>
+    <div row = "1" column = "3" class = "white" selected = "false"></div>
+    <div row = "1" column = "4" class = "black" selected = "false"></div>
+    <div row = "1" column = "5" class = "white" selected = "false"></div>
+    <div row = "1" column = "6" class = "black" selected = "false"></div>
+    <div row = "1" column = "7" class = "white" selected = "false"></div>
+    <div row = "1" column = "8" class = "black" selected = "false"></div>
+    <br/>
+
+    <!-- Row 2 -->
+
+    <div row = "2" column = "1" class = "black" selected = "false"></div>
+    <div row = "2" column = "2" class = "white" selected = "false"></div>
+    <div row = "2" column = "3" class = "black" selected = "false"></div>
+    <div row = "2" column = "4" class = "white" selected = "false"></div>
+    <div row = "2" column = "5" class = "black" selected = "false"></div>
+    <div row = "2" column = "6" class = "white" selected = "false"></div>
+    <div row = "2" column = "7" class = "black" selected = "false"></div>
+    <div row = "2" column = "8" class = "white" selected = "false"></div>
+    <br/>
+
+    <!-- Row 3 -->
+
+    <div row = "3" column = "1" class = "white" selected = "false"></div>
+    <div row = "3" column = "2" class = "black" selected = "false"></div>
+    <div row = "3" column = "3" class = "white" selected = "false"></div>
+    <div row = "3" column = "4" class = "black" selected = "false"></div>
+    <div row = "3" column = "5" class = "white" selected = "false"></div>
+    <div row = "3" column = "6" class = "black" selected = "false"></div>
+    <div row = "3" column = "7" class = "white" selected = "false"></div>
+    <div row = "3" column = "8" class = "black" selected = "false"></div>
+    <br/>
+
+    <!-- Row 4 -->
+
+    <div row = "4" column = "1" class = "black" selected = "false"></div>
+    <div row = "4" column = "2" class = "white" selected = "false"></div>
+    <div row = "4" column = "3" class = "black" selected = "false"></div>
+    <div row = "4" column = "4" class = "white" selected = "false"></div>
+    <div row = "4" column = "5" class = "black" selected = "false"></div>
+    <div row = "4" column = "6" class = "white" selected = "false"></div>
+    <div row = "4" column = "7" class = "black" selected = "false"></div>
+    <div row = "4" column = "8" class = "white" selected = "false"></div>
+    <br/>
+
+    <!-- Row 5 -->
+
+    <div row = "5" column = "1" class = "white" selected = "false"></div>
+    <div row = "5" column = "2" class = "black" selected = "false"></div>
+    <div row = "5" column = "3" class = "white" selected = "false"></div>
+    <div row = "5" column = "4" class = "black" selected = "false"></div>
+    <div row = "5" column = "5" class = "white" selected = "false"></div>
+    <div row = "5" column = "6" class = "black" selected = "false"></div>
+    <div row = "5" column = "7" class = "white" selected = "false"></div>
+    <div row = "5" column = "8" class = "black" selected = "false"></div>
+    <br/>
+
+    <!-- Row 6 -->
+
+    <div row = "6" column = "1" class = "black" selected = "false"></div>
+    <div row = "6" column = "2" class = "white" selected = "false"></div>
+    <div row = "6" column = "3" class = "black" selected = "false"></div>
+    <div row = "6" column = "4" class = "white" selected = "false"></div>
+    <div row = "6" column = "5" class = "black" selected = "false"></div>
+    <div row = "6" column = "6" class = "white" selected = "false"></div>
+    <div row = "6" column = "7" class = "black" selected = "false"></div>
+    <div row = "6" column = "8" class = "white" selected = "false"></div>
+    <br/>
+
+
+    <!-- Row 7 -->
+
+    <div row = "7" column = "1" class = "white" selected = "false"></div>
+    <div row = "7" column = "2" class = "black" selected = "false"></div>
+    <div row = "7" column = "3" class = "white" selected = "false"></div>
+    <div row = "7" column = "4" class = "black" selected = "false"></div>
+    <div row = "7" column = "5" class = "white" selected = "false"></div>
+    <div row = "7" column = "6" class = "black" selected = "false"></div>
+    <div row = "7" column = "7" class = "white" selected = "false"></div>
+    <div row = "7" column = "8" class = "black" selected = "false"></div>
+    <br/>
+
+
+    <!-- Row 8 -->
+
+    <div row = "8" column = "1" class = "black" selected = "false"></div>
+    <div row = "8" column = "2" class = "white" selected = "false"></div>
+    <div row = "8" column = "3" class = "black" selected = "false"></div>
+    <div row = "8" column = "4" class = "white" selected = "false"></div>
+    <div row = "8" column = "5" class = "black" selected = "false"></div>
+    <div row = "8" column = "6" class = "white" selected = "false"></div>
+    <div row = "8" column = "7" class = "black" selected = "false"></div>
+    <div row = "8" column = "8" class = "white" selected = "false"></div>
+    <br/>
+
+
+  </div>
+
+  <div class="item-instructions">
+
+    <!--
+      <div class="item-variants">
+          <h4>Select Variant</h4>
+
+                <select id="variants" onchange="location = this.value;">
+
+                  <option value = "main.html">Exactly 2 squares removed</option>
+                  <option value = "adv.html">Any number of squares removed</option>
+
+                </select> 
+
+    </div>
+    -->
+
+
+    <p> Instructions: 
+      <ul>
+        <li>Remove any 2 squares on the chessboard by clicking on them.</li>
+        <li>If you want to change your selection, click 'Reselect'</li>
+        <li>Once you're done, click 'Check' to see if the remaining chessboard can be tiled with dominos or not</li>
+      </ul>
+    </p>
+        <p id="tiling_update"></p>
+
+        <div class = "button_handler">
+      
+        <button type="button" id = "reselect_button">Reselect</button>
+        <button type="button" id = "check_button">Check</button>
+        <button type="button" id = "tile_button">Tile it with Dominos! </button>
+
+      </div>
+
+      <div id="domino_icon_handler">
+        <img src="https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/start-right_s3dzu1.png" alt="Domino Start">
+        <img src="https://res.cloudinary.com/dl6m7txan/image/upload/v1609178550/GMC/stop-left_sqotwv.png" alt="Domino Stop">
+        <p>This represents a domino. It can be orientated horizontally or vertically.</p>
+      </div>
+    </div>
+
+
+    
+
+
+</div>
+
+</body>
+
+<script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+
+</html>
